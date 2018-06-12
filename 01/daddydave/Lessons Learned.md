@@ -32,7 +32,7 @@ def max_word_value(words=None):
 ```
 
 Compare to experienced coder Bob Belderbos's version:
-```
+```Python
 def max_word_value(words=None):
     return max(words or load_words(), key=lambda w: calc_word_value(w))
 ```
